@@ -20,3 +20,8 @@ class MoneyManagerApp:
         print("Mapeando a interface do Money Manager Ex...")
 
         self.window.print_control_identifiers()
+
+    def click_new_file(self):
+        self.window.child_window(
+            auto_id="5002",
+            control_type="Button").click_input()

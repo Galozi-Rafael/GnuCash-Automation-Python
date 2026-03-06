@@ -9,6 +9,8 @@ def main():
 
     money_manager_app.map_interface()
 
+    money_manager_app.click_new_file()
+
     input("Pressione ENTER para finalizar...")
 
 if __name__ == "__main__":
