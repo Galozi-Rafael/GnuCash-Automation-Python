@@ -1,5 +1,5 @@
-# GnuCash-Automation-Python
-Automatizar o aplicativo contábil Gnu Cash. Utilizando Python e a biblioteca Pywinauto
+# RPA Financeiro em Python
+Automatizar o aplicativo contábil Money Manager Ex. Utilizando Python e a biblioteca Pywinauto
 
 ## Desenvolvimento
 
@@ -10,4 +10,4 @@ E usando o Inspect.exe para localizar os elementos na aplicação.
 
 ## Estágio
 
-Por hora o bot somente inicia o GnuCash.
+Por hora o bot somente inicia o Money Manager Ex.
