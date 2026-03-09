@@ -20,4 +20,4 @@ class CurrencyDialog:
 
         currency_list.child_window(title_re=currency).click_input()
 
-        self.window.child_window(title="Selecionar", control_type="Button").click_input()
+        self.window.child_window(title_re="Select|Selecionar", control_type="Button").click_input()

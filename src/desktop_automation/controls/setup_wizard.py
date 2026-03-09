@@ -10,7 +10,7 @@ class SetupWizard:
         self.window.child_window(title_re="Next|Próximo").click_input()
 
     def open_currency_dialog(self):
-        self.window.child_window(title_re="Choose Currency|Selecionar Moeda").click_input()
+        self.window.child_window(title_re="Set Currency|Selecionar Moeda").click_input()
 
     def set_username(self, name):
         self.window.child_window(control_type="Edit").set_edit_text(name)
@@ -23,4 +23,11 @@ class SetupWizard:
 
     def click_ok(self):
         self.window.child_window(title_re="OK|Concluir").click_input()
+
+    def select_account_date(self, date):
+        date_picker = self.window.child_window(auto_id="-31945", control_type="Pane")
+        date_picker.click_input()
+        date_picker.type_keys("{LEFT 2}")
+        date_picker.type_keys(date)
+        
         

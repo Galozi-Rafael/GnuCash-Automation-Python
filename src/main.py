@@ -12,7 +12,7 @@ def main():
 
     new_database = NewDatabase(money_manager_app.window)
 
-    new_database.complete_setup("Ze das couves", "USD", "Conta Principal")
+    new_database.complete_setup("Ze das couves", "USD", "Conta Principal", "01/01/2024")
 
     input("Pressione ENTER para finalizar...")
 
