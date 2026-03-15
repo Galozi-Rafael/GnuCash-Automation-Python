@@ -49,3 +49,19 @@ Configura automaticamente os parâmetros iniciais do sistema:
 ---
 
 # Estrutura do Projeto
+
+```mermaid
+flowchart LR
+
+A[RPA Financeiro] --> B[src]
+A-->C[.gitignore]
+A-->D[README.md]
+A-->K[main.py]
+
+B-->E[apps]
+B-->F[desktop_automation]
+B-->G[Services]
+B-->H[data] --> I[input]
+H-->J[output]
+
+```
